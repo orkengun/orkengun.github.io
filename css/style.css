@@ -1,0 +1,192 @@
+* {
+    padding: 0; 
+    margin: 0;
+    font-weight: 700;
+    
+}
+
+body {
+    background: url(../img/555.png) no-repeat center / cover;
+    background-attachment: fixed; 
+}
+
+
+
+.main-header {
+    background: #FFFBEE;
+    height: 90px;
+    width: 100%;
+}
+
+
+.logo {
+    float: left;
+    padding: 5px 30px ;
+}
+
+nav {
+    float: right;
+}
+
+.menu {
+    display:block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu li {
+    padding: 0;
+    margin: 0;
+    float: left;
+    padding-right: 80px;
+    display: inline;
+    padding-top: 33px;
+}
+
+li a {
+    font-family: 'Teko', sans-serif;
+    color: #393943;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+section .i-am {
+    background: url(../img/nout2.png)  no-repeat center / cover;
+    height: 585px;
+}
+
+.i-am-text  {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: #FFFBEE ;
+    padding-top: 200px;
+    text-align: center;
+    text-transform: uppercase;    
+} 
+ 
+.i-am-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.about {   
+    font-family: 'Teko', sans-serif;
+    height: 550px;
+    text-align: center;
+    max-width:100%;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #FFFBEE;
+}
+
+.about h1 {
+    padding-top: 70px;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 19px;
+    padding-bottom: 50px;
+    
+}
+
+.contacts {
+    color:#FFFBEE;
+    border-top: 2px solid #FFFBEE;
+    height: 250px;
+    margin: 0 auto ;
+    text-align: center;
+    
+   
+}
+
+.contacts h1 {
+    font-family: 'Teko', sans-serif;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.contacts h2 {
+    margin-bottom: 20px;
+}
+
+.icons {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.icons li {
+    display: inline;
+}
+
+.icons i {
+    font-size: 30px;
+    color: #FFFBEE;
+    margin: 1%;
+    
+}
+
+.contacts span {
+    color: #FBC963;
+}
+
+footer {
+    border-top:2px solid #FFFBEE;
+    background: #ED4E3D;
+    height: 60px;
+    
+}
+
+footer p {
+    color:#FFFBEE;
+    font-family: 'Zilla Slab Highlight', cursive; 
+    padding-top: 28px;
+    text-align: center;
+} 
+
+@media (max-width: 768px) {
+    .menu li {
+     padding-right: 50px;   
+  }
+ 
+  .logo {
+     padding-left: 30px;
+ }
+ 
+ .about {
+     height: 560px;
+ }
+ 
+ }
+
+@media (max-width: 480px) {
+   .menu li {
+    padding-right: 15px;   
+ }
+
+ .logo {
+    padding-left: 5px;
+}
+
+.about {
+    height: 580px;
+}
+
+}
+
